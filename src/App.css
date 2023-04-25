@@ -465,7 +465,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-color: #121212;
   position: relative;
   text-decoration: none;
-  
   padding: 0 auto;
   border-radius: 5px;
   margin-top: 20px;
@@ -474,6 +473,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 #visitProject a {
   text-decoration: none;
   color: #fff;
+  target-new: tab ! important
 }
 
 #visitProject a:hover {
