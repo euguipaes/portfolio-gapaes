@@ -3,6 +3,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from '../assets/img/logo.png';
 import navIcon1 from '../assets/img/nav-icon1.png';
 import navIcon2 from '../assets/img/nav-icon2.png';
+import navIcon3 from '../assets/img/nav-icon3.png';
 import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
@@ -49,8 +50,9 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.linkedin.com/in/guilherme-paes-7b5591133/"><img src={navIcon1} alt="linkedin" /></a>
-                <a href="https://github.com/euguipaes"><img src={navIcon2} alt="github" /></a>
+                <a href="https://www.linkedin.com/in/guilherme-paes-7b5591133/" target="_blank"><img src={navIcon1} alt="linkedin" /></a>
+                <a href="https://github.com/euguipaes" target="_blank"><img src={navIcon2} alt="github" /></a>
+                <a href="https://api.whatsapp.com/send?phone=5511975966009" target="_blank"><img src={navIcon3} alt="whatsapp" /></a>
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Contato</span></button>
