@@ -14,40 +14,40 @@ export const Projects = () => {
 
   const projects = [
     {
+      title: "César Augusto Arquitetura",
+      description: "Site desenvolvido para o arquiteto César Augusto. Desenvolvido em React.",
+      imgUrl: projImg1,
+      link: 'https://cesar-arquitetura.vercel.app/'
+    },
+    {
       title: "Mario Jump",
       description: "Ajude Mario a pular os obstáculos apertando a tecla 'espaço' em seu teclado. Jogo desenvolvido em CSS e JavaScript.",
-      imgUrl: projImg1,
+      imgUrl: projImg2,
       link: 'https://euguipaes.github.io/mario-jump/'
     },
     {
       title: "Número Secreto",
       description: "Diga algum número e tente adivinhar o número secreto. Jogo desenvolvido em JavaScript com reconhecimento de voz.",
-      imgUrl: projImg2,
+      imgUrl: projImg3,
       link: 'https://euguipaes.github.io/JogoNumeroSecreto/'
     },
     {
       title: "Calculadora de Gorjetas",
       description: "Aplicativo que calcula a gorjeta baseado no valor da conta e o total de pessoas a ser dividido. Desenvolvido em JavaScript",
-      imgUrl: projImg3,
+      imgUrl: projImg4,
       link: 'https://euguipaes.github.io/CalculadoraDeGorjetas/'
     },
     {
       title: "Robotron 2000",
       description: "Crie o seu robô. Desenvolvido em JavaScript.",
-      imgUrl: projImg4,
+      imgUrl: projImg5,
       link: 'https://euguipaes.github.io/robotron-2000/'
     },
     {
       title: "Paes MIDI",
       description: "Teste de sons. Desenvolvido em JavaScript",
-      imgUrl: projImg5,
-      link: 'https://euguipaes.github.io/PaesMIDI/'
-    },
-    {
-      title: "Mochila de Viagem",
-      description: "Adicione e remova itens de sua mochila de viagem para não esquecer de nada. Desenvolvido em JavaScript.",
       imgUrl: projImg6,
-      link: 'https://euguipaes.github.io/MochilaDeViagem/'
+      link: 'https://euguipaes.github.io/PaesMIDI/'
     },
   ];
 
