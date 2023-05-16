@@ -36,7 +36,7 @@ export const Contact = () => {
                     </Col>
                     <Col size={12} className="px-1">
                     <div className="contact-button">
-                      <button><a href={cv} target="_blank">Download CV</a></button>
+                      <button><a href={cv} target="_blank">DOWNLOAD CV</a></button>
                     </div>
                     </Col>
                   </Row>
