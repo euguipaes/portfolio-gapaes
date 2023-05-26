@@ -17,7 +17,7 @@ export const Projects = () => {
       title: "César Augusto Arquitetura",
       description: "Site desenvolvido para o arquiteto César Augusto. Desenvolvido em React.",
       imgUrl: projImg1,
-      link: 'https://cesar-arquitetura.vercel.app/'
+      link: 'https://cesararquitetura.com.br/'
     },
     {
       title: "Mario Jump",
