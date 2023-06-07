@@ -61,7 +61,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projetos</h2>
-                <p>Alguns dos meus projetos já desenvolvidos. Inclusive esse portfólio, que foi desenvolvido em React.</p>
+                <p>Alguns dos meus projetos já desenvolvidos. Inclusive esse portfólio, que foi desenvolvido com React, JavaScript e Bootstrap.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
