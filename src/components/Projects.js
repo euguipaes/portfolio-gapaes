@@ -6,6 +6,7 @@ import projImg3 from "../assets/img/project-img3.png";
 import projImg4 from "../assets/img/project-img4.png";
 import projImg5 from "../assets/img/project-img5.png";
 import projImg6 from "../assets/img/project-img6.png";
+import projImg7 from "../assets/img/project-img7.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -14,8 +15,14 @@ export const Projects = () => {
 
   const projects = [
     {
+      title: "Sistema de Finanças",
+      description: "Tenha controle sobre a sua vida financeira através desse sistema. Desenvolvido em React e JavaScript.",
+      imgUrl: projImg7,
+      link: 'https://sistema-financeiro-red.vercel.app/'
+    },
+    {
       title: "César Augusto Arquitetura",
-      description: "Site desenvolvido para o arquiteto César Augusto. Desenvolvido em React.",
+      description: "Site desenvolvido para o arquiteto César Augusto. Desenvolvido em React e JavaScript.",
       imgUrl: projImg1,
       link: 'https://cesararquitetura.com.br/'
     },
@@ -42,12 +49,6 @@ export const Projects = () => {
       description: "Crie o seu robô. Desenvolvido em JavaScript.",
       imgUrl: projImg5,
       link: 'https://euguipaes.github.io/robotron-2000/'
-    },
-    {
-      title: "Paes MIDI",
-      description: "Teste de sons. Desenvolvido em JavaScript",
-      imgUrl: projImg6,
-      link: 'https://euguipaes.github.io/PaesMIDI/'
     },
   ];
 
