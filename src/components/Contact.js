@@ -26,7 +26,7 @@ export const Contact = () => {
 
     try {
       const response = await axios.post(
-        "https://cesararquitetura.com.br/send",
+        "https://gapaes.vercel.app/#connect",
         formData
       );
 
